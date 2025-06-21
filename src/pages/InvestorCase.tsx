@@ -1,30 +1,40 @@
-
 import React from 'react';
 import { ArrowRight, Globe, Users, TrendingUp, Target, DollarSign, Building, Zap } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
+import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
 
 const InvestorCase = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-teal-50 via-white to-orange-50">
+      {/* Tilbake-knapp */}
+      <nav className="container mx-auto px-6 pt-6 flex">
+        <Link to="/">
+          <Button variant="outline" className="flex items-center gap-2">
+            ← Tilbake
+          </Button>
+        </Link>
+      </nav>
+
       {/* Hero Section */}
       <div className="relative overflow-hidden bg-gradient-to-r from-teal-800 via-teal-700 to-orange-600 text-white">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative container mx-auto px-6 py-24">
           <div className="max-w-4xl">
             <div className="flex items-center gap-4 mb-6">
-              <img 
-                src="/lovable-uploads/028f85ad-996a-4602-8037-a808908a4e9b.png" 
-                alt="JodaSkills Logo" 
-                className="w-16 h-16"
+              <img
+                src="/lovable-uploads/Logo1.png"
+                alt="JodaSkills Logo"
+                className="w-20 h-20"
               />
               <Badge className="bg-orange-500 hover:bg-orange-600 text-lg px-4 py-2">
                 Globalt Business Case
               </Badge>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              JodaSkills & AiNo
+              JodaSkills & I-know
             </h1>
             <p className="text-2xl md:text-3xl mb-8 text-teal-100 leading-relaxed">
               Digitaliserer Ugandas suksessmodell for global helsebemanning
@@ -123,7 +133,7 @@ const InvestorCase = () => {
         <section className="mb-20">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              AiNo - Ugandas modell, digitalt og globalt
+              I-know - Ugandas modell, digitalt og globalt
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Vi digitaliserer prinsippene bak Ugandas Community Health Worker-modell for et globalt, moderne helsesystem.

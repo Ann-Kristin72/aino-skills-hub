@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight, Globe, Users, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -13,11 +12,11 @@ const Index = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
             <img 
-              src="/lovable-uploads/028f85ad-996a-4602-8037-a808908a4e9b.png" 
+              src="/lovable-uploads/Logo1.png" 
               alt="JodaSkills Logo" 
-              className="w-10 h-10"
+              className="w-16 h-16"
             />
-            <div className="text-2xl font-bold text-gray-900">JodaSkills & AiNo</div>
+            <div className="text-2xl font-bold text-gray-900">JodaSkills & I-know</div>
           </div>
           <Link to="/investor-case">
             <Button className="bg-teal-600 hover:bg-teal-700">
@@ -100,7 +99,7 @@ const Index = () => {
             </Link>
           </div>
           <div className="bg-gradient-to-br from-teal-100 to-orange-100 p-8 rounded-2xl">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">AiNo - vår løsning</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">I-know - vår løsning</h3>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-teal-500 rounded-full"></div>
