@@ -53,6 +53,12 @@ const InvestorCase = () => {
                 <span>72 000+ helsearbeidere i Norge</span>
               </div>
             </div>
+            <Link to="/full-investor-case">
+              <Button size="lg" className="bg-white text-teal-700 hover:bg-gray-100">
+                Les hele business caset
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
