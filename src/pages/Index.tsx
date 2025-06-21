@@ -7,13 +7,20 @@ import { Link } from 'react-router-dom';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-emerald-50">
+    <div className="min-h-screen bg-gradient-to-br from-teal-50 via-white to-orange-50">
       {/* Navigation */}
       <nav className="container mx-auto px-6 py-6">
         <div className="flex justify-between items-center">
-          <div className="text-2xl font-bold text-gray-900">JodaSkills & AiNo</div>
+          <div className="flex items-center gap-3">
+            <img 
+              src="/lovable-uploads/028f85ad-996a-4602-8037-a808908a4e9b.png" 
+              alt="JodaSkills Logo" 
+              className="w-10 h-10"
+            />
+            <div className="text-2xl font-bold text-gray-900">JodaSkills & AiNo</div>
+          </div>
           <Link to="/investor-case">
-            <Button className="bg-emerald-600 hover:bg-emerald-700">
+            <Button className="bg-teal-600 hover:bg-teal-700">
               Se investor case
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
@@ -26,13 +33,13 @@ const Index = () => {
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
             Fremtidens
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-blue-600"> helsebemanning</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-orange-500"> helsebemanning</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
             Vi digitaliserer Ugandas suksessmodell for global helsebemanning og skaper en bærekraftig løsning for verdens bemanningskrise.
           </p>
           <Link to="/investor-case">
-            <Button size="lg" className="bg-gradient-to-r from-emerald-600 to-blue-600 hover:from-emerald-700 hover:to-blue-700 text-lg px-8 py-6">
+            <Button size="lg" className="bg-gradient-to-r from-teal-600 to-orange-500 hover:from-teal-700 hover:to-orange-600 text-lg px-8 py-6">
               Les hele investor caset
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
@@ -41,35 +48,35 @@ const Index = () => {
 
         {/* Key Stats */}
         <div className="grid md:grid-cols-3 gap-8 mt-20">
-          <Card className="text-center border-l-4 border-l-emerald-500">
+          <Card className="text-center border-l-4 border-l-teal-500">
             <CardHeader>
-              <Globe className="w-12 h-12 text-emerald-600 mx-auto" />
-              <CardTitle className="text-emerald-700">Global impact</CardTitle>
+              <Globe className="w-12 h-12 text-teal-600 mx-auto" />
+              <CardTitle className="text-teal-700">Global impact</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-3xl font-bold text-emerald-800">1,1T USD</div>
+              <div className="text-3xl font-bold text-teal-800">1,1T USD</div>
               <p className="text-gray-600">Potensial i økt produktivitet globalt</p>
             </CardContent>
           </Card>
 
-          <Card className="text-center border-l-4 border-l-blue-500">
+          <Card className="text-center border-l-4 border-l-orange-500">
             <CardHeader>
-              <Users className="w-12 h-12 text-blue-600 mx-auto" />
-              <CardTitle className="text-blue-700">Norsk marked</CardTitle>
+              <Users className="w-12 h-12 text-orange-600 mx-auto" />
+              <CardTitle className="text-orange-700">Norsk marked</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-3xl font-bold text-blue-800">72K+</div>
+              <div className="text-3xl font-bold text-orange-800">72K+</div>
               <p className="text-gray-600">Helsearbeidere uten fagutdanning</p>
             </CardContent>
           </Card>
 
-          <Card className="text-center border-l-4 border-l-purple-500">
+          <Card className="text-center border-l-4 border-l-yellow-500">
             <CardHeader>
-              <TrendingUp className="w-12 h-12 text-purple-600 mx-auto" />
-              <CardTitle className="text-purple-700">Besparelser</CardTitle>
+              <TrendingUp className="w-12 h-12 text-yellow-600 mx-auto" />
+              <CardTitle className="text-yellow-700">Besparelser</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-3xl font-bold text-purple-800">4B NOK</div>
+              <div className="text-3xl font-bold text-yellow-800">4B NOK</div>
               <p className="text-gray-600">Årlig på vikarer i Norge alene</p>
             </CardContent>
           </Card>
@@ -92,23 +99,23 @@ const Index = () => {
               </Button>
             </Link>
           </div>
-          <div className="bg-gradient-to-br from-emerald-100 to-blue-100 p-8 rounded-2xl">
+          <div className="bg-gradient-to-br from-teal-100 to-orange-100 p-8 rounded-2xl">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">AiNo - vår løsning</h3>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
+                <div className="w-2 h-2 bg-teal-500 rounded-full"></div>
                 AI-drevet læring og kompetanseutvikling
               </li>
               <li className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
                 Modulbasert SaaS-plattform
               </li>
               <li className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+                <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
                 Kryptert kommunikasjon og kvalitetssystem
               </li>
               <li className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                 Intelligent oppgavefordeling
               </li>
             </ul>

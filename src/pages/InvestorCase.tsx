@@ -7,19 +7,26 @@ import { Separator } from '@/components/ui/separator';
 
 const InvestorCase = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-emerald-50">
+    <div className="min-h-screen bg-gradient-to-br from-teal-50 via-white to-orange-50">
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-blue-900 via-blue-800 to-emerald-800 text-white">
+      <div className="relative overflow-hidden bg-gradient-to-r from-teal-800 via-teal-700 to-orange-600 text-white">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative container mx-auto px-6 py-24">
           <div className="max-w-4xl">
-            <Badge className="mb-6 bg-emerald-600 hover:bg-emerald-700 text-lg px-4 py-2">
-              Globalt Business Case
-            </Badge>
+            <div className="flex items-center gap-4 mb-6">
+              <img 
+                src="/lovable-uploads/028f85ad-996a-4602-8037-a808908a4e9b.png" 
+                alt="JodaSkills Logo" 
+                className="w-16 h-16"
+              />
+              <Badge className="bg-orange-500 hover:bg-orange-600 text-lg px-4 py-2">
+                Globalt Business Case
+              </Badge>
+            </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               JodaSkills & AiNo
             </h1>
-            <p className="text-2xl md:text-3xl mb-8 text-blue-100 leading-relaxed">
+            <p className="text-2xl md:text-3xl mb-8 text-teal-100 leading-relaxed">
               Digitaliserer Ugandas suksessmodell for global helsebemanning
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
@@ -83,9 +90,9 @@ const InvestorCase = () => {
             </Card>
           </div>
 
-          <Card className="bg-emerald-50 border-emerald-200">
+          <Card className="bg-teal-50 border-teal-200">
             <CardHeader>
-              <CardTitle className="text-emerald-800 flex items-center gap-2">
+              <CardTitle className="text-teal-800 flex items-center gap-2">
                 <Target className="w-6 h-6" />
                 Ugandas suksessmodell
               </CardTitle>
@@ -96,15 +103,15 @@ const InvestorCase = () => {
               </p>
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="text-center p-4 bg-white rounded-lg">
-                  <div className="text-2xl font-bold text-emerald-600">506→336</div>
+                  <div className="text-2xl font-bold text-teal-600">506→336</div>
                   <div className="text-sm text-gray-600">Mødredødelighet per 100k</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg">
-                  <div className="text-2xl font-bold text-emerald-600">52%→80%</div>
+                  <div className="text-2xl font-bold text-teal-600">52%→80%</div>
                   <div className="text-sm text-gray-600">Vaksinedekning barn</div>
                 </div>
                 <div className="text-center p-4 bg-white rounded-lg">
-                  <div className="text-2xl font-bold text-emerald-600">50%↓</div>
+                  <div className="text-2xl font-bold text-teal-600">50%↓</div>
                   <div className="text-sm text-gray-600">Malariadødsfall</div>
                 </div>
               </div>
@@ -126,22 +133,22 @@ const InvestorCase = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {[
               {
-                icon: <Users className="w-8 h-8 text-blue-600" />,
+                icon: <Users className="w-8 h-8 text-teal-600" />,
                 title: "Innhold og læring",
                 description: "Nano-læring og mikrostep tilpasset rolle, språk og kontekst. Eira AI-veileder foreslår innhold når det trengs."
               },
               {
-                icon: <Building className="w-8 h-8 text-purple-600" />,
+                icon: <Building className="w-8 h-8 text-orange-600" />,
                 title: "Kvalitetssystem",
                 description: "Prosedyrebygging basert på ferdige maler. Automatiske påminnelser og AI-veiledning for forståelige prosedyrer."
               },
               {
-                icon: <Zap className="w-8 h-8 text-emerald-600" />,
+                icon: <Zap className="w-8 h-8 text-yellow-600" />,
                 title: "Teknotassen",
                 description: "AI-veileder for innføring av velferdsteknologi med sjekklister og visuelle forklaringer."
               },
               {
-                icon: <Globe className="w-8 h-8 text-orange-600" />,
+                icon: <Globe className="w-8 h-8 text-green-600" />,
                 title: "Kommunikasjon",
                 description: "Kryptert meldingsfeed som holder kommunikasjonen GDPR-kompatibel med faglig chat og AI-støtte."
               },
@@ -173,7 +180,7 @@ const InvestorCase = () => {
 
         {/* Market Potential */}
         <section className="mb-20">
-          <Card className="bg-gradient-to-r from-blue-600 to-emerald-600 text-white">
+          <Card className="bg-gradient-to-r from-teal-600 to-orange-500 text-white">
             <CardHeader>
               <CardTitle className="text-3xl flex items-center gap-3">
                 <DollarSign className="w-8 h-8" />
@@ -214,23 +221,23 @@ const InvestorCase = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
-                <CardTitle className="text-emerald-700">Hvordan tjener vi penger?</CardTitle>
+                <CardTitle className="text-teal-700">Hvordan tjener vi penger?</CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="flex items-center gap-2">
-                  <ArrowRight className="w-4 h-4 text-emerald-600" />
+                  <ArrowRight className="w-4 h-4 text-teal-600" />
                   <span>Moduler som abonnement (SaaS)</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <ArrowRight className="w-4 h-4 text-emerald-600" />
+                  <ArrowRight className="w-4 h-4 text-teal-600" />
                   <span>Tilpasning for store aktører (white label)</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <ArrowRight className="w-4 h-4 text-emerald-600" />
+                  <ArrowRight className="w-4 h-4 text-teal-600" />
                   <span>NGO-samarbeid i lavinntektsland</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <ArrowRight className="w-4 h-4 text-emerald-600" />
+                  <ArrowRight className="w-4 h-4 text-teal-600" />
                   <span>Kurs- og prosedyrepakker som tillegg</span>
                 </div>
               </CardContent>
@@ -238,13 +245,13 @@ const InvestorCase = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-blue-700">Kapitalbehov</CardTitle>
+                <CardTitle className="text-orange-700">Kapitalbehov</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="bg-blue-50 p-4 rounded-lg">
-                    <div className="text-3xl font-bold text-blue-800 mb-2">90M NOK</div>
-                    <div className="text-sm text-blue-600">Total kapitalbehov første runde</div>
+                  <div className="bg-orange-50 p-4 rounded-lg">
+                    <div className="text-3xl font-bold text-orange-800 mb-2">90M NOK</div>
+                    <div className="text-sm text-orange-600">Total kapitalbehov første runde</div>
                   </div>
                   <Separator />
                   <div className="space-y-2">
@@ -298,7 +305,7 @@ const InvestorCase = () => {
 
         {/* Call to Action */}
         <section className="text-center">
-          <Card className="bg-gradient-to-r from-emerald-600 to-blue-600 text-white">
+          <Card className="bg-gradient-to-r from-teal-600 to-orange-500 text-white">
             <CardContent className="py-12">
               <h2 className="text-4xl font-bold mb-4">
                 Et digitalt Uganda, tilgjengelig for verden
@@ -307,13 +314,13 @@ const InvestorCase = () => {
                 Vi vet hvordan dette skal gjøres. Vi har brukt årene på å teste det manuelt, akkurat slik Uganda har gjort – men nå har vi teknologien, AI og internasjonale partnerskap som kan gjøre modellen skalerbar og rettferdig.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <Badge className="bg-white text-emerald-700 text-lg px-6 py-3">
+                <Badge className="bg-white text-teal-700 text-lg px-6 py-3">
                   Ikke en ny app
                 </Badge>
-                <Badge className="bg-white text-blue-700 text-lg px-6 py-3">
+                <Badge className="bg-white text-orange-700 text-lg px-6 py-3">
                   Et fundament for fremtiden
                 </Badge>
-                <Badge className="bg-white text-purple-700 text-lg px-6 py-3">
+                <Badge className="bg-white text-yellow-700 text-lg px-6 py-3">
                   Respekt for folk, fag og ressurser
                 </Badge>
               </div>
