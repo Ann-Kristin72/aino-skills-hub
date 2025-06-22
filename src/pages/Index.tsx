@@ -3,6 +3,7 @@ import { ArrowRight, Globe, Users, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
+import LanguageSwitcher from '@/components/ui/LanguageSwitcher';
 
 const Index = () => {
   return (
@@ -18,12 +19,15 @@ const Index = () => {
             />
             <div className="text-2xl font-bold text-gray-900">JodaSkills & I-know</div>
           </div>
-          <Link to="/investor-case">
-            <Button className="bg-teal-600 hover:bg-teal-700">
-              Se investor case
-              <ArrowRight className="ml-2 w-4 h-4" />
-            </Button>
-          </Link>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
+            <Link to="/investor-case">
+              <Button className="bg-teal-600 hover:bg-teal-700">
+                Se investor case
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </Button>
+            </Link>
+          </div>
         </div>
       </nav>
 

@@ -1,12 +1,16 @@
 {
   "nav": {
+    "back": "← Tilbake",
     "investorCase": "Se investor case"
   },
   "hero": {
-    "title1": "Fremtidens",
-    "title2": "helsebemanning",
-    "subtitle": "Vi digitaliserer Ugandas suksessmodell for global helsebemanning og skaper en bærekraftig løsning for verdens bemanningskrise.",
-    "cta": "Les hele investor caset"
+    "badge": "Globalt Business Case",
+    "title": "JodaSkills & I-know",
+    "subtitle": "Digitaliserer Ugandas suksessmodell for global helsebemanning",
+    "tag1": "Global skalering",
+    "tag2": "1,1 billioner USD potensial",
+    "tag3": "72 000+ helsearbeidere i Norge",
+    "cta": "Les hele business caset"
   },
   "stats": {
     "stat1_title": "Global impact",
@@ -16,16 +20,69 @@
     "stat3_title": "Besparelser",
     "stat3_desc": "Årlig på vikarer i Norge alene"
   },
-  "problemSolution": {
-    "title": "Fra krise til mulighet",
-    "p1": "Siden WHO advarte om bemanningskrisen i 2006, har problemet bare blitt større. Men Uganda viste veien - med lokale helsearbeidere som nå dekker 75% av landet med imponerende resultater.",
-    "p2": "Vi tar denne suksessmodellen og gjør den digital, skalerbar og tilgjengelig for hele verden.",
-    "cta": "Les hele historien",
-    "solutionTitle": "I-know - vår løsning",
-    "solutionPoint1": "AI-drevet læring og kompetanseutvikling",
-    "solutionPoint2": "Modulbasert SaaS-plattform",
-    "solutionPoint3": "Kryptert kommunikasjon og kvalitetssystem",
-    "solutionPoint4": "Intelligent oppgavefordeling"
+  "problem": {
+    "title": "Et verdensproblem vi har valgt å løse",
+    "subtitle": "Siden WHO la frem rapporten \"Working Together for Health\" i 2006, har verden visst at vi står overfor en bemanningskrise i helsetjenestene.",
+    "scope": {
+      "title": "Problemets omfang",
+      "2006": "57 land hadde kritisk mangel på leger, sykepleiere og jordmødre. Globalt gap: 2,4 millioner helsearbeidere.",
+      "2025": "Problemet er forsterket. Norge bruker over 4 milliarder kroner årlig på vikarer, mens 72 530 årsverk utføres av ansatte uten helsefaglig utdanning."
+    },
+    "norway": {
+      "title": "Norsk virkelighet",
+      "demography": {
+        "label": "Demografi som unnskyldning:",
+        "text": "Vi bruker \"demografi\" som forklaring, men løser ikke grunnproblemet - manglende planlegging og utdanning."
+      },
+      "turnover": {
+        "label": "Turnover-kostnad:",
+        "text": "KS anslår at turnover for ufaglærte alene koster kommunesektoren over 297 millioner kroner årlig."
+      }
+    },
+    "uganda": {
+      "title": "Ugandas suksessmodell",
+      "description": "Uganda bygget på 1990-tallet opp over 179 000 Community Health Workers som dekker 75% av landet. Resultater:",
+      "stat1": "Mødredødelighet per 100k",
+      "stat2": "Vaksinedekning barn",
+      "stat3": "Malariadødsfall"
+    }
+  },
+  "solution": {
+    "title": "I-know - Ugandas modell, digitalt og globalt",
+    "subtitle": "Vi digitaliserer prinsippene bak Ugandas Community Health Worker-modell for et globalt, moderne helsesystem.",
+    "modules": {
+      "content": {
+        "title": "Innhold og læring",
+        "description": "Nano-læring og mikrostep tilpasset rolle, språk og kontekst. Eira AI-veileder foreslår innhold når det trengs."
+      },
+      "quality": {
+        "title": "Kvalitetssystem",
+        "description": "Prosedyrebygging basert på ferdige maler. Automatiske påminnelser og AI-veiledning for forståelige prosedyrer."
+      },
+      "tech": {
+        "title": "Teknotassen",
+        "description": "AI-veileder for innføring av velferdsteknologi med sjekklister og visuelle forklaringer."
+      },
+      "communication": {
+        "title": "Kommunikasjon",
+        "description": "Kryptert meldingsfeed som holder kommunikasjonen GDPR-kompatibel med faglig chat og AI-støtte."
+      },
+      "tasks": {
+        "title": "Oppgavedeling",
+        "description": "AI-kartlegging av kompetanse og match med arbeidsoppgaver, inkludert kobling mot NAVs databaser."
+      },
+      "eira": {
+        "title": "Eira AI-agent",
+        "description": "Brukerens hjelper og lederens kompass for å forstå hva organisasjonen kan, gjør og trenger."
+      }
+    }
+  },
+  "cta": {
+    "title": "Et digitalt Uganda, tilgjengelig for verden",
+    "description": "Vi vet hvordan dette skal gjøres. Vi har brukt årene på å teste det manuelt, akkurat slik Uganda har gjort – men nå har vi teknologien, AI og internasjonale partnerskap som kan gjøre modellen skalerbar og rettferdig.",
+    "badge1": "Ikke en ny app",
+    "badge2": "Et fundament for fremtiden",
+    "badge3": "Respekt for folk, fag og ressurser"
   },
   "investorCase": {
     "back_button": "Tilbake",
@@ -92,6 +149,67 @@
     "cta_badge1": "Ikke en ny app",
     "cta_badge2": "Et fundament for fremtiden",
     "cta_badge3": "Respekt for folk, fag og ressurser"
+  },
+  "founders": {
+    "title": "Gründerne bak",
+    "p1": "Vet du hva en entreprenør, pedagog og en fra Frelsesarmeen har til felles? De har bygget et av Norges største private kompetanseselskap med 70 av landets kommuner som kunder, titusenvis av deltakere, og har løst krevende utfordringer for NAV og helsevesenet. Vi har bygget systemer som utdanner, lærer opp, kvalifiserer og ikke minst, som har fått jobb til mennesker som trenger trygghet – og til kommuner som trenger løsninger som faktisk fungerer.",
+    "p2": "Vi er den tålmodige gründeren med en litt pirkete servitør. Vi er fagfolk med over 20 års erfaring fra alt fra utvikling, jus og økonomi til pedagogikk og pleie i front. Vi har reist og sett utfordringene, ikke bare i Norge, men i Asia og Afrika, og vi har tatt utfordringene. Vi er en fersk, teknologisk og menneskelig kobling av verdier.",
+    "p3": "Vi har bygget produkter som har vunnet priser globalt, og vi har stått i det norske kommune markedet, så vi snakker norsk med komplekse leveransepartnere.",
+    "p4": "Vi har gravd dypt for å lære oss alt vi i dag kan i feltet. Vi har reist til Uganda for å lære hvordan de har løst tingene i feltet, fra de med de tyngste midlene til de som har rettet egne øyne fra sorg, til å ta et ansvar, et ansvar vi vil støtte.",
+    "p5": "I dag er vi et team av 10 med en snittalder av over 50 år, med 30 MNOK avkastet fra hva vi har dag sikrer leveranser fra A til Å, bygger systemer som reduserer menneskefrykt.",
+    "p6": "Vi vet hva vi skal gjøre. Vi vet hvordan vi skal gjøre det. Vi skal vi klare den store reisen for å få sammen med oss de rette til å løfte dette fra norsk suksess til en global modell for rettferdig, menneskelig helsebemanning?"
+  },
+  "market": {
+    "title": "Markedspotensialet",
+    "norway": {
+      "title": "Norge",
+      "savings": "1,5-2 milliarder kroner årlig besparelse på vikarbruk",
+      "turnover": "297 millioner kroner i redusert turnover",
+      "customers": "70 kommuner som eksisterende kunder",
+      "users": "10 000+ brukere på plattformen allerede"
+    },
+    "global": {
+      "title": "Globalt",
+      "productivity": "1,1 billioner USD i økt produktivitet (McKinsey)",
+      "disease": "7% reduksjon i global sykdomsbyrde",
+      "sweden": "Signerte avtaler i Sverige: 20M NOK potensial",
+      "partnerships": "Partnerskap med WHO, UNICEF og NGO'er"
+    }
+  },
+  "business": {
+    "title": "Forretningsmodell og struktur",
+    "revenue": {
+      "title": "Hvordan tjener vi penger?",
+      "saas": "Moduler som abonnement (SaaS)",
+      "whiteLabel": "Tilpasning for store aktører (white label)",
+      "ngo": "NGO-samarbeid i lavinntektsland",
+      "packages": "Kurs- og prosedyrepakker som tillegg"
+    },
+    "capital": {
+      "title": "Kapitalbehov",
+      "total": "Total kapitalbehov første runde",
+      "acquisition": "Oppkjøp SkillAid/Jodacare",
+      "operations": "Drift og skalering"
+    }
+  },
+  "sources": {
+    "title": "Kilder og referanser",
+    "international": {
+      "title": "Internasjonale kilder:",
+      "who2006": "WHO (2006): Working Together for Health",
+      "who2018": "WHO (2018): Community Health Worker Guidelines",
+      "who2030": "WHO HRH Strategy 2030",
+      "oecd": "OECD (2008): The Looming Crisis in the Health Workforce",
+      "mckinsey": "McKinsey (2023): Closing the Healthcare Workforce Gap"
+    },
+    "norwegian": {
+      "title": "Norske kilder:",
+      "fafo": "Fafo (2023): Mobilitet i helse- og omsorgstjenestene",
+      "helsedir": "Helsedirektoratet (2020-2024): Kompetanseløft",
+      "ks": "KS (2024): Status Velferdsteknologi",
+      "sykepleien": "Sykepleien.no, Kommunal Rapport",
+      "nav": "NAV Statistikk 2024"
+    }
   },
   "fullInvestorCase": {
     "back_button": "Tilbake til oversikt",

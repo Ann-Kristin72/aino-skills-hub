@@ -1,12 +1,18 @@
 {
   "nav": {
+    "back": "← Back",
     "investorCase": "View investor case"
   },
   "hero": {
     "title1": "Future",
     "title2": "healthcare staffing",
     "subtitle": "We digitize Uganda's success model for global healthcare staffing and create a sustainable solution for the world's staffing crisis.",
-    "cta": "Read the full investor case"
+    "cta": "Read the full investor case",
+    "badge": "Global Business Case",
+    "title": "JodaSkills & I-know",
+    "tag1": "Global scaling",
+    "tag2": "1.1 trillion USD potential",
+    "tag3": "72,000+ healthcare workers in Norway"
   },
   "stats": {
     "stat1_title": "Global impact",
@@ -16,16 +22,69 @@
     "stat3_title": "Savings",
     "stat3_desc": "Annually on temporary staff in Norway alone"
   },
-  "problemSolution": {
-    "title": "From crisis to opportunity",
-    "p1": "Since WHO warned about the staffing crisis in 2006, the problem has only grown. But Uganda showed the way - with local healthcare workers who now cover 75% of the country with impressive results.",
-    "p2": "We take this success model and make it digital, scalable and accessible to the entire world.",
-    "cta": "Read the full story",
-    "solutionTitle": "I-know - our solution",
-    "solutionPoint1": "AI-driven learning and competence development",
-    "solutionPoint2": "Module-based SaaS platform",
-    "solutionPoint3": "Encrypted communication and quality system",
-    "solutionPoint4": "Intelligent task distribution"
+  "problem": {
+    "title": "A world problem we have chosen to solve",
+    "subtitle": "Since WHO presented the report \"Working Together for Health\" in 2006, the world has known that we face a staffing crisis in healthcare services.",
+    "scope": {
+      "title": "The scope of the problem",
+      "2006": "57 countries had critical shortages of doctors, nurses and midwives. Global gap: 2.4 million healthcare workers.",
+      "2025": "The problem has intensified. Norway spends over 4 billion kroner annually on temporary staff, while 72,530 full-time equivalents are performed by employees without healthcare education."
+    },
+    "norway": {
+      "title": "Norwegian reality",
+      "demography": {
+        "label": "Demographics as an excuse:",
+        "text": "We use \"demographics\" as an explanation, but don't solve the root problem - lack of planning and education."
+      },
+      "turnover": {
+        "label": "Turnover cost:",
+        "text": "KS estimates that turnover for unskilled workers alone costs the municipal sector over 297 million kroner annually."
+      }
+    },
+    "uganda": {
+      "title": "Uganda's success model",
+      "description": "Uganda built up over 179,000 Community Health Workers in the 1990s who cover 75% of the country. Results:",
+      "stat1": "Maternal mortality per 100k",
+      "stat2": "Child vaccination coverage",
+      "stat3": "Malaria deaths"
+    }
+  },
+  "solution": {
+    "title": "I-know - Uganda's model, digital and global",
+    "subtitle": "We digitize the principles behind Uganda's Community Health Worker model for a global, modern healthcare system.",
+    "modules": {
+      "content": {
+        "title": "Content and learning",
+        "description": "Nano-learning and micro-steps tailored to role, language and context. Eira AI guide suggests content when needed."
+      },
+      "quality": {
+        "title": "Quality system",
+        "description": "Procedure building based on ready-made templates. Automatic reminders and AI guidance for understandable procedures."
+      },
+      "tech": {
+        "title": "Tech toolbox",
+        "description": "AI guide for introducing welfare technology with checklists and visual explanations."
+      },
+      "communication": {
+        "title": "Communication",
+        "description": "Encrypted message feed that keeps communication GDPR-compliant with professional chat and AI support."
+      },
+      "tasks": {
+        "title": "Task distribution",
+        "description": "AI mapping of competence and match with work tasks, including connection to NAV's databases."
+      },
+      "eira": {
+        "title": "Eira AI agent",
+        "description": "The user's helper and the leader's compass to understand what the organization can, does and needs."
+      }
+    }
+  },
+  "cta": {
+    "title": "A digital Uganda, available to the world",
+    "description": "We know how this should be done. We have spent the years testing it manually, exactly as Uganda has done – but now we have the technology, AI and international partnerships that can make the model scalable and fair.",
+    "badge1": "Not a new app",
+    "badge2": "A foundation for the future",
+    "badge3": "Respect for people, profession and resources"
   },
   "investorCase": {
     "back_button": "Back",
@@ -92,6 +151,67 @@
     "cta_badge1": "Not a new app",
     "cta_badge2": "A foundation for the future",
     "cta_badge3": "Respect for people, profession and resources"
+  },
+  "founders": {
+    "title": "The founders behind",
+    "p1": "Do you know what an entrepreneur, a pedagogue and someone from the Salvation Army have in common? They have built one of Norway's largest private competence companies with 70 of the country's municipalities as customers, thousands of participants, and have solved challenging problems for NAV and the healthcare system. We have built systems that educate, train, qualify and not least, that have given jobs to people who need security – and to municipalities that need solutions that actually work.",
+    "p2": "We are the patient entrepreneur with a slightly picky waiter. We are professionals with over 20 years of experience from everything from development, law and economics to pedagogy and care in the front line. We have traveled and seen the challenges, not just in Norway, but in Asia and Africa, and we have taken on the challenges. We are a fresh, technological and human connection of values.",
+    "p3": "We have built products that have won awards globally, and we have stood in the Norwegian municipality market, so we speak Norwegian with complex delivery partners.",
+    "p4": "We have dug deep to learn everything we can today in the field. We have traveled to Uganda to learn how they have solved things in the field, from those with the heaviest means to those who have turned their own eyes from sorrow, to take responsibility, a responsibility we will support.",
+    "p5": "Today we are a team of 10 with an average age of over 50 years, with 30 MNOK returned from what we have today ensures deliveries from A to Z, builds systems that reduce human fear.",
+    "p6": "We know what we need to do. We know how we need to do it. Will we manage the great journey to get together with us the right ones to lift this from Norwegian success to a global model for fair, human healthcare staffing?"
+  },
+  "market": {
+    "title": "Market potential",
+    "norway": {
+      "title": "Norway",
+      "savings": "1.5-2 billion kroner annual savings on temporary staff use",
+      "turnover": "297 million kroner in reduced turnover",
+      "customers": "70 municipalities as existing customers",
+      "users": "10,000+ users on the platform already"
+    },
+    "global": {
+      "title": "Global",
+      "productivity": "1.1 trillion USD in increased productivity (McKinsey)",
+      "disease": "7% reduction in global disease burden",
+      "sweden": "Signed agreements in Sweden: 20M NOK potential",
+      "partnerships": "Partnerships with WHO, UNICEF and NGOs"
+    }
+  },
+  "business": {
+    "title": "Business model and structure",
+    "revenue": {
+      "title": "How do we make money?",
+      "saas": "Modules as subscription (SaaS)",
+      "whiteLabel": "Customization for large players (white label)",
+      "ngo": "NGO collaboration in low-income countries",
+      "packages": "Course and procedure packages as add-ons"
+    },
+    "capital": {
+      "title": "Capital requirement",
+      "total": "Total capital requirement first round",
+      "acquisition": "Acquisition of SkillAid/Jodacare",
+      "operations": "Operations and scaling"
+    }
+  },
+  "sources": {
+    "title": "Sources and references",
+    "international": {
+      "title": "International sources:",
+      "who2006": "WHO (2006): Working Together for Health",
+      "who2018": "WHO (2018): Community Health Worker Guidelines",
+      "who2030": "WHO HRH Strategy 2030",
+      "oecd": "OECD (2008): The Looming Crisis in the Health Workforce",
+      "mckinsey": "McKinsey (2023): Closing the Healthcare Workforce Gap"
+    },
+    "norwegian": {
+      "title": "Norwegian sources:",
+      "fafo": "Fafo (2023): Mobility in health and care services",
+      "helsedir": "Norwegian Directorate of Health (2020-2024): Competence boost",
+      "ks": "KS (2024): Status Welfare Technology",
+      "sykepleien": "Sykepleien.no, Municipal Report",
+      "nav": "NAV Statistics 2024"
+    }
   },
   "fullInvestorCase": {
     "back_button": "Back to overview",

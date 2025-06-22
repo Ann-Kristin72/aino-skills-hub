@@ -132,16 +132,33 @@ const FullInvestorCase = () => {
           </AccordionItem>
 
           <AccordionItem value="item-10">
-            <AccordionTrigger className="text-xl font-semibold">10. En ny vei: JodaSkills og I-know</AccordionTrigger>
+            <AccordionTrigger className="text-xl font-semibold">10. Gründerne bak</AccordionTrigger>
+            <AccordionContent className="text-gray-700 leading-relaxed">
+              <p>Vi er to kvinnestyrte selskaper som i snart 15 år har forsket, utviklet, testet, feilet og lykkes — men først og fremst har vi lyktes. Vi har lyktes til helsefagarbeideren som går hjem utbrent etter nattevakt. Vi har lyktes til lederen som alene prøver å lukke avvik som aldri tar slutt. Vi har lyktes til pårørende som trenger trygghet — og til kommuner som trenger løsninger som faktisk fungerer.</p>
+              <br/>
+              <p>Vi er ikke tilfeldige gründere med en idé på en serviett. Vi er fagfolk med over 20 års erfaring fra alle ledd i helsetjenesten — og vi har stått pårørende selv. Vi har vært tett på teknologiutviklingen: fra klasserom og e-læring til VR, AR og nå kunstig intelligens. Vi vet én ting: teknologi uten menneskelig forankring er verdiløs.</p>
+              <br/>
+              <p>Vi har bygget produkter som har vunnet priser globalt, og vi har stått støtt i det norske kommunemarkedet, et av verdens mest komplekse innovasjonsmiljøer.</p>
+              <br/>
+              <p>Vi har gått dypere enn tall og teori: Vi har stått i felten. Vi har reist til Uganda for å lære hvordan de har bygd Village Health Team, fra idé til nasjonal modell –og vi har sett med egne øyne hva som virker når penger er få, men ansvar er stort.</p>
+              <br/>
+              <p>I dag er vi til stede i mer enn 70 kommuner, med over 10 000 aktive brukere som hver dag jobber smartere fordi vi bygger systemer som snakker menneskespråk.</p>
+              <br/>
+              <p>Vi vet hva vi skal gjøre. Vi vet hvordan vi skal gjøre det. Nå skal vi finne den som tør å stå sammen med oss og løfte dette fra en norsk suksess til en global modell for rettferdig, bærekraftig helsekompetanse.</p>
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-11">
+            <AccordionTrigger className="text-xl font-semibold">11. En ny vei: JodaSkills og I-know</AccordionTrigger>
             <AccordionContent className="text-gray-700 leading-relaxed">
             Vi har brukt årevis på å forstå hva som faktisk virker, og enda flere år på å bygge teknologi som kan bære det. Vår erfaring fra to selskaper, SkillAid (Dynamisk Helse) og Jodacare, har lært oss at løsningen aldri er ett nytt kurs, én ny app eller én ny portal. Løsningen ligger i et sammenhengende økosystem som knytter sammen kunnskap, kvalitet, teknologi, kommunikasjon og oppgaver – i sanntid, på språk folk forstår.
             <br/><br/>
             Dette er essensen i I-know – vår nye plattform som for første gang digitaliserer prinsippene bak Ugandas Community Health Worker-modell for et globalt, moderne helsesystem.
             </AccordionContent>
           </AccordionItem>
-
-          <AccordionItem value="item-11">
-            <AccordionTrigger className="text-xl font-semibold">11. Hva er I-know – modulene som løser problemet</AccordionTrigger>
+          
+          <AccordionItem value="item-12">
+            <AccordionTrigger className="text-xl font-semibold">12. Hva er I-know – modulene som løser problemet</AccordionTrigger>
             <AccordionContent className="text-gray-700 leading-relaxed">
             I-know er bygget som en modulbasert Software-as-a-Service (SaaS)-plattform. Hver modul kan kjøpes separat, men alle bygger på samme innholdsbase og snakker sømløst sammen via felles AI-logikk og dataintegrasjon.
             <ul className="list-disc pl-6 mt-4 space-y-3">
@@ -156,8 +173,8 @@ const FullInvestorCase = () => {
             </AccordionContent>
           </AccordionItem>
           
-          <AccordionItem value="item-12">
-            <AccordionTrigger className="text-xl font-semibold">12. Hva har vi allerede – og hva skal vi bygge ferdig</AccordionTrigger>
+          <AccordionItem value="item-13">
+            <AccordionTrigger className="text-xl font-semibold">13. Hva har vi allerede – og hva skal vi bygge ferdig</AccordionTrigger>
             <AccordionContent className="text-gray-700 leading-relaxed">
             <strong>Dette har vi i dag:</strong>
             <ul className="list-disc pl-6 mt-2 space-y-2">
@@ -176,8 +193,8 @@ const FullInvestorCase = () => {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-13">
-            <AccordionTrigger className="text-xl font-semibold">13. Markedspotensialet – fra norsk problem til global eksportvare</AccordionTrigger>
+          <AccordionItem value="item-14">
+            <AccordionTrigger className="text-xl font-semibold">14. Markedspotensialet – fra norsk problem til global eksportvare</AccordionTrigger>
             <AccordionContent className="text-gray-700 leading-relaxed">
             Med dagens system står vi stødig i Norge – og har bevis på at systemet virker. Med I-know har vi potensial til å ta en rettferdig og skalerbar versjon av Ugandas manuelle modell og gjøre den tilgjengelig for helsetjenester over hele verden.
             <br/><br/>
@@ -185,8 +202,8 @@ const FullInvestorCase = () => {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-14">
-            <AccordionTrigger className="text-xl font-semibold">14. Forretningsmodell og salgsstrategi</AccordionTrigger>
+          <AccordionItem value="item-15">
+            <AccordionTrigger className="text-xl font-semibold">15. Forretningsmodell og salgsstrategi</AccordionTrigger>
             <AccordionContent className="text-gray-700 leading-relaxed">
             <strong>Hvordan tjener vi penger?</strong>
             <ul className="list-disc pl-6 mt-2 space-y-2">
@@ -206,8 +223,8 @@ const FullInvestorCase = () => {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-15">
-            <AccordionTrigger className="text-xl font-semibold">15. Kapital og struktur – hva vi trenger, og hvorfor</AccordionTrigger>
+          <AccordionItem value="item-16">
+            <AccordionTrigger className="text-xl font-semibold">16. Kapital og struktur – hva vi trenger, og hvorfor</AccordionTrigger>
             <AccordionContent className="text-gray-700 leading-relaxed">
             <strong>Kapitalbehov:</strong>
             <p>Totalt behov for kapital i første runde: 90 millioner NOK.</p>
@@ -221,8 +238,8 @@ const FullInvestorCase = () => {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-16">
-            <AccordionTrigger className="text-xl font-semibold">16. Organisasjon – et team som vet hva det gjør</AccordionTrigger>
+          <AccordionItem value="item-17">
+            <AccordionTrigger className="text-xl font-semibold">17. Organisasjon – et team som vet hva det gjør</AccordionTrigger>
             <AccordionContent className="text-gray-700 leading-relaxed">
             <strong>Ny CEO:</strong>
             <p>Som beskrevet i vår stillingsutlysning skal JodaSkills ledes av en internasjonal, vekstorientert CEO med solid erfaring fra teknologisk skalering. Rollen er allerede definert og rekruttering er i gang.</p>
@@ -238,8 +255,8 @@ const FullInvestorCase = () => {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-17">
-            <AccordionTrigger className="text-xl font-semibold">17. Konklusjon – et digitalt Uganda, tilgjengelig for verden</AccordionTrigger>
+          <AccordionItem value="item-18">
+            <AccordionTrigger className="text-xl font-semibold">18. Konklusjon – et digitalt Uganda, tilgjengelig for verden</AccordionTrigger>
             <AccordionContent className="text-gray-700 leading-relaxed">
             Vi vet hvordan dette skal gjøres. Vi har brukt årene på å teste det manuelt, akkurat slik Uganda har gjort – men nå har vi teknologien, AI og internasjonale partnerskap som kan gjøre modellen skalerbar og rettferdig.
             <br/><br/>
