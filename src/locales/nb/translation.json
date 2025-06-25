@@ -6,6 +6,8 @@
   "hero": {
     "badge": "Globalt Business Case",
     "title": "JodaSkills & I-know",
+    "title1": "Fremtidens",
+    "title2": "helsebemanning",
     "subtitle": "Digitaliserer Ugandas suksessmodell for global helsebemanning",
     "tag1": "Global skalering",
     "tag2": "1,1 billioner USD potensial",
@@ -249,4 +251,4 @@
     "section17_title": "17. Konklusjon – et digitalt Uganda, tilgjengelig for verden",
     "section17_content": "Vi vet hvordan dette skal gjøres. Vi har brukt årene på å teste det manuelt, akkurat slik Uganda har gjort – men nå har vi teknologien, AI og internasjonale partnerskap som kan gjøre modellen skalerbar og rettferdig.<br/><br/>Dette er ikke en ny app.<br/>Dette er et fundament for å fylle helseverdenens største hull – med respekt for folk, fag og ressurser.<br/><br/><strong>Kilder:</strong><br/><ul class=\"list-disc pl-6 mt-2 space-y-1 text-sm\"><li>WHO (2006): Working Together for Health</li><li>WHO (2018): Community Health Worker Guidelines</li><li>WHO HRH Strategy 2030</li><li>OECD (2008): The Looming Crisis in the Health Workforce</li><li>McKinsey (2023): Closing the Healthcare Workforce Gap</li><li>Fafo (2023): Mobilitet i helse- og omsorgstjenestene</li><li>Helsedirektoratet (2020, 2022, 2024): Kompetanseløft, Velferdsteknologi</li><li>KS (2024): Status Velferdsteknologi</li><li>Sykepleien.no, Kommunal Rapport</li></ul>"
   }
-} 
+}
